@@ -1,6 +1,6 @@
 ### Prerequisites
 
-- [Python](https://www.python.org/downloads/release/python-3119/)
+- [Python 3.11](https://www.python.org/downloads/release/python-3119/)
 
 ### Installation
 
@@ -11,6 +11,10 @@ python -m venv venv
 
 ```bash
 pip install -r requirements.txt
+```
+
+```bash
+git clone https://github.com/ultralytics/yolov5.git
 ```
 
 ### Usage

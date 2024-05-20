@@ -286,13 +286,10 @@ def count_obj(box, w, h, id, direct, cls):
     global up_count, down_count, tracker1, tracker2, car_count, truck_count
     cx, cy = (int(box[0] + (box[2] - box[0]) / 2), int(box[1] + (box[3] - box[1]) / 2))
 
-    # For South
-
     if cy <= int(h // 2):
         return
 
     if direct == "South":
-
         if cy > (h - 300):
             if id not in tracker1:
                 print(f"ID: {id}, H: {h} South")
